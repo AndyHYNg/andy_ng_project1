@@ -533,6 +533,16 @@ footer p {
         --wrapperVerticalPadding: 50px;
     }
 
+    /* moved social media nav bar closer to center and extra spacing between each li for tablet users' experience */
+
+    .navSocialMedia {
+        padding-top: 10vh;
+    }
+
+    .navSocialMedia ul li {
+        padding-bottom: 25px;
+    }
+
     .contact div:first-child {
         width: 70%;
     }
