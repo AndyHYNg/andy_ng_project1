@@ -471,16 +471,6 @@ footer p {
 
 /*RESPONSIVE BREAKPOINTS*/
 
-/*HiDPI media query for header background image*/
-@media  (-webkit-min-device-pixel-ratio: 2), 
-        (min-resolution: 192dpi) {
-            header {
-                background-size: 50%;
-                background-repeat: no-repeat;
-                background-image: url("../assets/image-1@2x.png");
-            }
-        }
-
 @media (max-width: 1560px) {
     .contact div:first-child {
         text-align: center;
@@ -597,11 +587,6 @@ footer p {
 @media (max-width: 750px) {
     :root {
         --wrapperHorizontalPadding: 5%;
-    }
-
-    header {
-        background-image: url("../assets/image-1-mobile@3x.png");
-        background-position: center;
     }
 
     /* hamburger menu and header nav re-styling to mobile*/
